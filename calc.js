@@ -30,6 +30,15 @@ function divide(number1, number2) {
     return number1 / number2;
 }
 
+// 5. Increment
+
+var answerInc = answer++;
+
+function increment(answer) {
+
+    return answerInc;
+}
+
 
 // Event Handlers
 document.querySelector('#calc').addEventListener('click', function(e) {
