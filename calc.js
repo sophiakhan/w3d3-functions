@@ -32,11 +32,18 @@ function divide(number1, number2) {
 
 // 5. Increment
 
-var answerInc = answer++;
+function increment () {
+    answer++;
 
-function increment(answer) {
+    return answer;
+}
 
-    return answerInc;
+// 6. Decrement
+
+function decrement () {
+    answer--;
+
+    return answer;
 }
 
 
@@ -50,3 +57,4 @@ document.querySelector('#calc').addEventListener('click', function(e) {
 
     document.querySelector('#answer').innerHTML = answer;
 });
+
